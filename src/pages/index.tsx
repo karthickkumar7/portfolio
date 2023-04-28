@@ -5,6 +5,7 @@ import Head from 'next/head';
 import React from 'react';
 import { motion } from 'framer-motion';
 import Banner from '@/components/Banner';
+import About from '@/components/About';
 
 const Home = () => {
     return (
@@ -23,8 +24,15 @@ const Home = () => {
                     >
                         <LeftSide />
                     </motion.div>
-                    <div className="h-full mx-auto p-4">
+                    <div className="h-full w-full mx-auto p-4">
                         <Banner />
+                        {/* ABOUT */}
+                        <About />
+                        {/* EXPERIENCE */}
+                        {/* PROJECTS */}
+                        {/* ARCHIVE */}
+                        {/* CONTACT */}
+                        {/* FOOTER */}
                     </div>
                     <motion.div
                         initial={{ opacity: 0 }}

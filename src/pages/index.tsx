@@ -6,6 +6,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Banner from '@/components/Banner';
 import About from '@/components/About';
+import Experience from '@/components/Experience';
 
 const Home = () => {
     return (
@@ -26,9 +27,8 @@ const Home = () => {
                     </motion.div>
                     <div className="h-full w-full mx-auto p-4">
                         <Banner />
-                        {/* ABOUT */}
                         <About />
-                        {/* EXPERIENCE */}
+                        <Experience />
                         {/* PROJECTS */}
                         {/* ARCHIVE */}
                         {/* CONTACT */}
